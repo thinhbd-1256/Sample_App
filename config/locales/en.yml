@@ -4,6 +4,7 @@ en:
   create: "Create my account"
   welcome: "Welcome to the Sample App!"
   danger: "User does not exist! Please sign up!"
+  invalid: "Invalid email/password combination"
   the_form_contains: "The form contains "
 
   static_pages:
@@ -37,7 +38,7 @@ en:
       des: "This is the home page for the"
       book_name: "Ruby on Rails Tutorial"
       sample: "sample application"
-      sign_up: "Sign up now!"
+      sign_up: "Sign up now !"
       logo_alt: "Rails logo"
 
   users:
@@ -63,3 +64,18 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      setting: "Settings"
+      acc: "Account"
+      user: "Users"
+
+  sessions:
+    new:
+      tit: "Log in"
+      email: "Email"
+      pass: "Password"
+      login: "Log in"
+      new: "New user ?"
+      signup: "Sign up now!"
+      remember: "Remember me on this computer"
