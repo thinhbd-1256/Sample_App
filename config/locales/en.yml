@@ -10,6 +10,13 @@ en:
   plslogin: "Please log in"
   deleted: "User deleted"
   deleted_fail: "Delete not success"
+  activated: "Account activated"
+  invalid_active: "Invalid activation link"
+  not_activated: "Account not activated. "
+  check_active: "Check your email for the activation link."
+  check_email: "Please check your email to activate your account."
+  subject_mail: "Account activation"
+  greeting: "Hi"
 
   static_pages:
     about:
@@ -100,3 +107,22 @@ en:
       new: "New user ?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+
+  user_mailer:
+    account_activation:
+      tit: "Sample App"
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"
+
+    active_text:
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+
+    password_reset:
+      tit: "User#password_reset"
+      find_me: "Find me in "
+
+    reset_text:
+      tit: "User#password_reset"
+      find_me: "find me in"
