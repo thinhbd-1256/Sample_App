@@ -1,12 +1,12 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 
-$light-gray: #777;
-$white: #fff;
-$dimgray: #555;
 $dark: #222;
-$silver: #bbb;
+$dimgray: #555;
 $lavender: #eaeaea;
+$light-gray: #777;
+$silver: #bbb;
+$white: #fff;
 
 body {
   padding-top: 60px;
@@ -103,11 +103,11 @@ footer {
 /* miscellaneous */
 
 .debug_dump {
+  @include box_sizing;
   clear: both;
   float: left;
   margin-top: 45px;
   width: 100%;
-  @include box_sizing;
 }
 
 /* sidebar */
@@ -131,8 +131,7 @@ aside {
     h1 {
       font-size: 1.4em;
       letter-spacing: -1px;
-      margin-bottom: 3px;
-      margin-top: 0px;
+      margin: 0px 0 3px 0;
       text-align: left;
     }
   }
@@ -150,10 +149,10 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
+  @include box_sizing;
   border: 1px solid $silver;
   margin-bottom: 15px;
   width: 100%;
-  @include box_sizing;
 }
 
 input {
@@ -173,4 +172,17 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin: -10px 0 10px 0;
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+#session_remember_me {
+  margin-left: 0;
+  width: auto;
 }
