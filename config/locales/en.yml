@@ -1,23 +1,65 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   hello: "Hello world"
+  error: "error"
+  create: "Create my account"
+  welcome: "Welcome to the Sample App!"
+  danger: "User does not exist! Please sign up!"
+  the_form_contains: "The form contains "
+
+  static_pages:
+    about:
+      tit: "About"
+      the: "The"
+      book_name: "Ruby on Rails Tutorial"
+      is: "is a"
+      book: "book"
+      and: "and"
+      screen_cast: "screencast series"
+      teach: "to teach web development with"
+      name: "Ruby on Rails"
+      des: "This is the sample application for the tutorial"
+
+    contact:
+      tit: "Contact"
+      des: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      page: "contact page"
+
+    help:
+      tit: "Help"
+      help_tut: "Get help on the Ruby on Rails Tutorial at the"
+      page: "Rails Tutorial help page"
+      help_example: "To get help on this sample app, see the"
+      book_name: "Ruby on Rails Tutorial"
+      book: "book"
+
+    home:
+      tit: "Welcome to the Sample App"
+      des: "This is the home page for the"
+      book_name: "Ruby on Rails Tutorial"
+      sample: "sample application"
+      sign_up: "Sign up now!"
+      logo_alt: "Rails logo"
+
+  users:
+    new:
+      tit: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Confirmation"
+
+  layouts:
+    footer:
+      the: "The"
+      book_name: "Ruby on Rails Tutorial"
+      by: "by"
+      author: "Michael Hartl"
+      new: "News"
+      about: "About"
+      contact: "Contact"
+
+    header:
+      title: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
