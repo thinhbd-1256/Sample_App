@@ -27,7 +27,7 @@ class PasswordResetsController < ApplicationController
       render :edit
     elsif @user.update_attributes user_params
       log_in @user
-      @user.update_attributes :reset_digest => nil
+      @user.update_attributes reset_digest: nil
       flash[:success] = t :pass_reset
       redirect_to @user
     else
