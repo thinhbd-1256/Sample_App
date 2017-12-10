@@ -4,6 +4,7 @@ en:
   create: "Create my account"
   welcome: "Welcome to the Sample App!"
   danger: "User does not exist! Please sign up!"
+  invalid: "Invalid email/password combination"
   the_form_contains: "The form contains "
 
   static_pages:
@@ -63,6 +64,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      setting: "Settings"
+      acc: "Account"
+      user: "Users"
 
   sessions:
     new:
