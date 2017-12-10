@@ -63,3 +63,13 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+
+  sessions:
+    new:
+      tit: "Log in"
+      email: "Email"
+      pass: "Password"
+      login: "Log in"
+      new: "New user?"
+      signup: "Sign up now!"
+

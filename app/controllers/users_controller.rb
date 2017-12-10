@@ -5,14 +5,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_id params[:id]
-
-    if @user.nil?
-      flash[:danger] = t :danger
-      new
-      render :new
-    else
-      @user
-    end
+    return if @user
+    flash[:danger] = t :danger
+    redirect_to new_user_path
   end
 
   def create
