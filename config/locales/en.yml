@@ -6,6 +6,10 @@ en:
   danger: "User does not exist! Please sign up!"
   invalid: "Invalid email/password combination"
   the_form_contains: "The form contains "
+  updated: "Profile updated"
+  plslogin: "Please log in"
+  deleted: "User deleted"
+  deleted_fail: "Delete not success"
 
   static_pages:
     about:
@@ -42,12 +46,29 @@ en:
       logo_alt: "Rails logo"
 
   users:
+    index:
+      tit: "All users"
+
     new:
       tit: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirm: "Confirmation"
+
+    edit:
+      tit: "Edit user"
+      header: "Update your profile"
+      save: "Save changes"
+      change: "change"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Confirmation"
+
+    user:
+      delete: "delete"
+      confirm: "You sure?"
 
   layouts:
     footer:
