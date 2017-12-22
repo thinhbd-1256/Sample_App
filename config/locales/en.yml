@@ -23,6 +23,16 @@ en:
   pass_reset: "Password has been reset"
   pass_expired: "Password reset has expired"
   pass_reset_subject: "Password reset"
+  post_deleted: "Micropost deleted!"
+  post_delete_fail: "Micropost was not deleted"
+  post_created: "Micropost created!"
+  pic_size: "should be less than 5MB"
+  basetitle: "Ruby on Rails Tutorial Sample App"
+  checktoactive: "Please check your email to activate your account."
+  tit_following: "Following"
+  tit_follower: "Followers"
+  user_following: "following"
+  user_follower: "followers"
 
   static_pages:
     about:
@@ -57,6 +67,7 @@ en:
       sample: "sample application"
       sign_up: "Sign up now !"
       logo_alt: "Rails logo"
+      post_feed: "Micropost Feed"
 
   users:
     index:
@@ -82,6 +93,20 @@ en:
     user:
       delete: "delete"
       confirm: "You sure?"
+
+    show:
+      micropost: "Microposts"
+      confirm: "You sure?"
+
+    follow:
+      follow: "Follow"
+
+    unfollow:
+      unfollow: "Unfollow"
+
+    show_follow:
+      view_my_profile: "view my profile"
+      post_count: "Microposts:"
 
   layouts:
     footer:
@@ -147,3 +172,19 @@ en:
       tit: "Forgot password"
       email: "Email"
       submit: "Submit"
+
+  microposts:
+    micropost:
+      posted: "Posted "
+      delete: "delete"
+      confirm: "You sure?"
+
+  shared:
+    micropost_form:
+      holder: "Compose new micropost ..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+
+    user_info:
+      view_profile: "view my profile"
+      post: "micropost"

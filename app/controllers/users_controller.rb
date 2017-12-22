@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def create
@@ -42,6 +43,22 @@ class UsersController < ApplicationController
   def destroy
     @user.destroy ? flash[:success] = t(:deleted) : flash[:danger] =  t(:deleted_fail)
     redirect_to users_url
+  end
+
+  def following
+    @title = t :tit_following
+    @user = User.find params[:id]
+    redirect_to root_path if !@user
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t :tit_follower
+    @user = User.find params[:id]
+    redirect_to root_path if !@user
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
   end
 
   private
